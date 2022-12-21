@@ -4,10 +4,10 @@ body {
 }
 
 .container {
-    max-width: 1188px;
+    max-width: 1152px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .color-web {
@@ -44,6 +44,8 @@ body {
 .header-list {
     list-style: none;
     gap: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header-link:hover {
@@ -66,6 +68,8 @@ body {
 
 .header-contacts {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .header-contacts a {
@@ -89,33 +93,39 @@ body {
 }
 
 .body {
-    background: #2E2F42;
+    background-color: #2E2F42;
+    text-align: center;
 }
+
 
 .body-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1;
-    text-align: center;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 
 .body-title-btn {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
-    gap: 10px;
     background: #4D5AE5;
-    text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
 }
 
 
 .section-slogan-col {
     list-style: none;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .slogan {
@@ -126,6 +136,7 @@ body {
     color: #2E2F42;
     width: 264px;
     height: 24px;
+    margin-top: 0;
 }
 
 .text {
@@ -135,6 +146,7 @@ body {
     color: #434455;
     width: 264px;
     height: 72px;
+    margin-bottom: 0;
 }
 
 .heading {
@@ -145,10 +157,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 .section-image {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 240px;
 }
 
 .section-team {
@@ -160,10 +176,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 220px;
+
 }
 
 .footer {
     background: #2E2F42;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 188px;
 }
 
 .logo-footer {
@@ -182,6 +205,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+    margin-top: 0;
+    margin-bottom: 0;   
 }
 
 /*______________PORTFOLIO______________*/
