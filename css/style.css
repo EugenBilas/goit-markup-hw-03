@@ -27,6 +27,9 @@ body {
     border: 1px solid #E7E9FC;
 }
 
+.navigation {
+    display: flex;
+}
 
 .header-logo {
     font-family: 'Raleway';
@@ -64,7 +67,6 @@ body {
 }
 
 .header-link {
-    background-color: tomato;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -72,6 +74,9 @@ body {
     color: #2E2F42;
     text-decoration: none;
     font-family: inherit;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-link:active {
@@ -79,20 +84,34 @@ body {
 }
 
 .header-contacts {
+    display: flex;
+
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
 }
 
-.header-contacts a {
+.header-contacts li {
+    margin-right: 40px;
+}
+
+.header-contacts li:last-child {
+    margin-right: 0;
+}
+
+.header-mail a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
     list-style: none;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
 
 .header-phone a {
     text-decoration: none;
@@ -103,6 +122,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .body {
